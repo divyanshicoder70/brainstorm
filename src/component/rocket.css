@@ -1,0 +1,99 @@
+.rockets-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rockets-title {
+    font-size: 2.5rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  .rockets-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .rocket-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .rocket-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .rocket-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .rocket-name {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .popup-title {
+    font-size: 2rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  .popup-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .popup-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .close-button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .close-button:hover {
+    background-color: #0f59c6;
+  }
